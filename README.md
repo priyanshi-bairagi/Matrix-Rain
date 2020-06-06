@@ -8,7 +8,7 @@ The raining green code shown in the introduction is referred to as the <a href="
 
 
 The symbols used in this rain are infact comprised largely of <a href="https://en.wikipedia.org/wiki/Katakana">Katakana</a>,which are characters that represent syllables in Japanese.
-I have used <a href="https://unicode.org/standard/WhatIsUnicode.html">unicode</a> inorder to represent them. Here i have used all of the Katakana in Katakana Unicode Chart(96 total). 
+I have used <a href="https://unicode.org/standard/WhatIsUnicode.html">unicode</a> inorder to represent them. Here I have used all of the Katakana in Katakana Unicode Chart(96 total). 
 The code retrieves one of these beautiful symbols for every loop.
 
 

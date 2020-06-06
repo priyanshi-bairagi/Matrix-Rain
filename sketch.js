@@ -61,7 +61,7 @@ class Stream {                                                  // to create a s
     constructor(){
         this.symbols  = [];
         this.totalSymbols = round(random(5,30));
-        this.speed = random(5,20);
+        this.speed = random(5,25);
     }
 
     generateSymbols(x,y){
@@ -78,10 +78,10 @@ class Stream {                                                  // to create a s
     render(){
         this.symbols.forEach (function(symbol ) {
             if(symbol.first){
-                fill(180,255,180);
+                fill(236,132,245);                          //add shine effect by using different color for first symbol of random streams
             }
             else{
-                fill(0,255,70);
+                fill(149, 14, 160);
             }
             text(symbol.value,symbol.x,symbol.y);
             symbol.rain();
